@@ -7,7 +7,6 @@ def my_hash
     tennis_player: "Andre Agassi",
     tournament: "Wimbeldon"
   }
-  my_hash[:tennis_player]
   # return a valid hash with any key/value pair of your choice
 end
   my_hash[:tennis_player]
