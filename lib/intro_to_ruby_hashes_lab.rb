@@ -4,10 +4,10 @@ end
 
 def my_hash
   my_hash = {
-    tennis_player: "Andre Agassi"
+    tennis_player: "Andre Agassi",
     tournament: "Wimbeldon"
   }
-  return my_hash[:tennis_player]
+  my_hash[:tennis_player]
   # return a valid hash with any key/value pair of your choice
 end
 
