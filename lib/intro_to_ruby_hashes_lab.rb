@@ -1,16 +1,29 @@
 def new_hash
-  # return an empty hash
+  hash = {}
 end
 
 def my_hash
-  # return a valid hash with any key/value pair of your choice
+  my_hash = {
+    tennis_player: "Andre Agassi",
+    tournament: "Wimbeldon"
+  }
 end
+  my_hash[:tennis_player]
+
 
 def pioneer
+  pioneer = {
+    :name => "Grace Hopper"
+  }
   # return a hash with a key of :name and a corresponding value of 'Grace Hopper'
 end
 
+pioneer[:name]
+
 
 def id_hash_generator(number)
+  id_hash_generator = {
+    :id => number
+  }  
   # return a hash with a key :id assigned to the provided number
 end
