@@ -12,7 +12,7 @@ end
 
 
 def pioneer
-  return pioneer
+  return pioneer[:name]
   # return a hash with a key of :name and a corresponding value of 'Grace Hopper'
 end
 
