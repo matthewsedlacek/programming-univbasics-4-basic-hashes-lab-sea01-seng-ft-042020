@@ -22,12 +22,10 @@ pioneer[:name]
 
 
 def id_hash_generator(number)
-  id = number
-  
   id_hash_generator = {
     :id => id
   }  
   # return a hash with a key :id assigned to the provided number
 end
 
-id_hash_generator[:id]
+id_hash_generator(number)
