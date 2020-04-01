@@ -7,12 +7,12 @@ def my_hash
     tennis_player: "Andre Agassi",
     tournament: "Wimbeldon"
   }
-  # return a valid hash with any key/value pair of your choice
 end
   my_hash[:tennis_player]
 
 
 def pioneer
+  return pioneer
   # return a hash with a key of :name and a corresponding value of 'Grace Hopper'
 end
 
